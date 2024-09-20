@@ -1,0 +1,2 @@
+export const getSolanaRpcUrl = () => `https://solana-mainnet.g.alchemy.com/v2/${import.meta.env.VITE_RPC_KEY}`;
+export const getEthereumRpcUrl = () => `https://eth-mainnet.g.alchemy.com/v2/${import.meta.env.VITE_RPC_KEY}`;

@@ -93,7 +93,7 @@ export default function SolanaWallet({ mnemonic }) {
             <AccordionSummary>
                 <Grid container sx={{height: "100%", width: "100%"}}>
                     <Grid size={{xs: 10, lg: 11}} sx={{alignContent: "center"}}>
-                        <Typography sx={{fontSize: 18, px:2}}>Wallet {i+1}</Typography>
+                        <Typography sx={{fontSize: 20, px:2}}>Wallet {i+1}</Typography>
                     </Grid>
                     <Grid size={{xs: 2, lg:1}}>
                         <Button onClick={handleModalOpen} sx={{color: "white"}}>Send SOL</Button>

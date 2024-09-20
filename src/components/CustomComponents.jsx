@@ -85,7 +85,7 @@ export const PrivateKeyCard = ({ privateKey }) => {
 
   return (
     <Card
-      sx={{ height: "75px", background: "inherit", boxShadow: "none" }}
+      sx={{ minHeight: "75px", background: "inherit", boxShadow: "none", mb: -1}}
     >
       <CardHeader title={`Private Key`} sx={{ pb: 0  }} titleTypographyProps={{ sx: { fontSize: '1.2rem', fontWeight: 600 } }}/>
       <CardContent sx={{ py: 0, cursor: "pointer" }}>

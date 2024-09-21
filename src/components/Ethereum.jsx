@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import propTypes from "prop-types";
 import { mnemonicToSeed } from "bip39";
 import { JsonRpcProvider, Wallet, HDNodeWallet } from "ethers";
-import {Box, Button, Typography, Grid2 as Grid, Accordion, AccordionSummary, AccordionDetails, Modal} from "@mui/material";
+import { Box, Button, Typography, Grid2 as Grid, Accordion, AccordionSummary, AccordionDetails, Modal } from "@mui/material";
 import { CardComponent, PrivateKeyCard } from "./CustomComponents";
 import { boxStyle } from "../utils/styles";
 import SendEthereum from "./SendEth";
